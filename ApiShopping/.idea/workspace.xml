@@ -1,0 +1,1538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="02ceff3c-543d-4357-8c11-4ef6e663c7f2" name="Default" comment="推消息时，增加是否有分表的判断">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/MyTest" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/MyTest/D0001_STANDAPI" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/MyTest/D0001_STANDAPI/ApiTest.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/MyTest/D0001_STANDAPI/ApiTest_prd.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/MyTest/D0001_STANDAPI/ApiTest_xg.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/MyTest/D0001_STANDAPI/ApiTest_魔方.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/MyTest/D0001_STANDAPI/ApiTest太平.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/MyTest/D0001_STANDAPI/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/MyTest/D0001_STANDAPI/互联魔方.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/MyTest/Other" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/MyTest/Other/GCTEST_05_06.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/MyTest/Other/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/MyTest/Other/a.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/MyTest/Other/myTax.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/API/D0001_STANDAPI/Base.py" afterPath="$PROJECT_DIR$/API/D0001_STANDAPI/Base.py" />
+      <change beforePath="$PROJECT_DIR$/API/D0001_STANDAPI/url.py" afterPath="$PROJECT_DIR$/API/D0001_STANDAPI/url.py" />
+      <change beforePath="$PROJECT_DIR$/API/D0003_GJDW/Base.py" afterPath="$PROJECT_DIR$/API/D0003_GJDW/Base.py" />
+      <change beforePath="$PROJECT_DIR$/API/D0016_JSYH/Base.py" afterPath="$PROJECT_DIR$/API/D0016_JSYH/Base.py" />
+      <change beforePath="$PROJECT_DIR$/API/D0043_CCYQ/Base.py" afterPath="$PROJECT_DIR$/API/D0043_CCYQ/Base.py" />
+      <change beforePath="$PROJECT_DIR$/Testsuite/D0001_STANDAPI/ApiTest.py" afterPath="$PROJECT_DIR$/Testsuite/D0001_STANDAPI/ApiTest.py" />
+      <change beforePath="$PROJECT_DIR$/Testsuite/D0003_GJDW/ApiTest.py" afterPath="$PROJECT_DIR$/Testsuite/D0003_GJDW/ApiTest.py" />
+      <change beforePath="$PROJECT_DIR$/Testsuite/D0012_PAEW/ApiTest.py" afterPath="$PROJECT_DIR$/Testsuite/D0012_PAEW/ApiTest.py" />
+      <change beforePath="$PROJECT_DIR$/Testsuite/D0014_TJNH/ApiTest.py" afterPath="$PROJECT_DIR$/Testsuite/D0014_TJNH/ApiTest.py" />
+      <change beforePath="$PROJECT_DIR$/Testsuite/D0016_JSYH/hxyhTest.py" afterPath="$PROJECT_DIR$/Testsuite/D0016_JSYH/hxyhTest.py" />
+      <change beforePath="$PROJECT_DIR$/Testsuite/D0016_JSYH/jsyhTest.py" afterPath="$PROJECT_DIR$/Testsuite/D0016_JSYH/jsyhTest.py" />
+      <change beforePath="$PROJECT_DIR$/Testsuite/D0027_HDJT/ApiTest.py" afterPath="$PROJECT_DIR$/Testsuite/D0027_HDJT/ApiTest.py" />
+      <change beforePath="$PROJECT_DIR$/Testsuite/D0027_HDJT/HDJT_STAND.py" afterPath="$PROJECT_DIR$/Testsuite/D0027_HDJT/HDJT_STAND.py" />
+      <change beforePath="$PROJECT_DIR$/Testsuite/D0039_TJSC/ApiTest.py" afterPath="$PROJECT_DIR$/Testsuite/D0039_TJSC/ApiTest.py" />
+      <change beforePath="$PROJECT_DIR$/Testsuite/D0043_CCYQ/ApiTest_DBWL.py" afterPath="$PROJECT_DIR$/Testsuite/D0043_CCYQ/ApiTest_DBWL.py" />
+      <change beforePath="$PROJECT_DIR$/Testsuite/D0045_ICBC/ApiTest.py" afterPath="$PROJECT_DIR$/Testsuite/D0045_ICBC/ApiTest.py" />
+      <change beforePath="$PROJECT_DIR$/Testsuite/D0046_CTCC/ApiTest.py" afterPath="$PROJECT_DIR$/Testsuite/D0046_CTCC/ApiTest.py" />
+      <change beforePath="$PROJECT_DIR$/Testsuite/D0054_BHYH/ApiTest.py" afterPath="$PROJECT_DIR$/Testsuite/D0054_BHYH/ApiTest.py" />
+      <change beforePath="$PROJECT_DIR$/ToolsScript/T002_PushMessge.py" afterPath="$PROJECT_DIR$/ToolsScript/T002_PushMessge.py" />
+      <change beforePath="$PROJECT_DIR$/ToolsScript/T004_ReturnPart.py" afterPath="$PROJECT_DIR$/ToolsScript/T004_ReturnPart.py" />
+      <change beforePath="$PROJECT_DIR$/ToolsScript/T006_AutarkySend.py" afterPath="$PROJECT_DIR$/ToolsScript/T006_AutarkySend.py" />
+      <change beforePath="$PROJECT_DIR$/ToolsScript/T007_AutarkyReturn.py" afterPath="$PROJECT_DIR$/ToolsScript/T007_AutarkyReturn.py" />
+      <change beforePath="$PROJECT_DIR$/ToolsScript/T008_AutarkySend_new.py" afterPath="$PROJECT_DIR$/ToolsScript/T008_AutarkySend_new.py" />
+      <change beforePath="$PROJECT_DIR$/ToolsScript/T010_OpenInvoices.py" afterPath="$PROJECT_DIR$/ToolsScript/T010_OpenInvoices.py" />
+      <change beforePath="$PROJECT_DIR$/ToolsScript/T011_Factorydelivery.py" afterPath="$PROJECT_DIR$/ToolsScript/T011_Factorydelivery.py" />
+      <change beforePath="$PROJECT_DIR$/ToolsScript/T013_GctestPriceChange.py" afterPath="$PROJECT_DIR$/ToolsScript/T013_GctestPriceChange.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ApiShopping$jsyhTest.coverage" NAME="jsyhTest Coverage Results" MODIFIED="1592376193280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testsuite/D0016_JSYH" />
+    <SUITE FILE_PATH="coverage/ApiShopping$a.coverage" NAME="a Coverage Results" MODIFIED="1593586872028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyTest/Other" />
+    <SUITE FILE_PATH="coverage/ApiShopping$ApiTest_DBWL.coverage" NAME="ApiTest_DBWL Coverage Results" MODIFIED="1592900230912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testsuite/D0043_CCYQ" />
+    <SUITE FILE_PATH="coverage/ApiShopping$T008_AutarkySend_new.coverage" NAME="T008_AutarkySend_new Coverage Results" MODIFIED="1592971068968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ToolsScript" />
+    <SUITE FILE_PATH="coverage/ApiShopping$ApiTest__2_.coverage" NAME="ApiTest (2) Coverage Results" MODIFIED="1593487205355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyTest/D0001_STANDAPI" />
+    <SUITE FILE_PATH="coverage/ApiShopping$Test_Case_D0020.coverage" NAME="Test_Case_D0020 Coverage Results" MODIFIED="1588736285156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testsuite/D0020_SNSZF" />
+    <SUITE FILE_PATH="coverage/ApiShopping$ApiTestsit.coverage" NAME="ApiTestsit Coverage Results" MODIFIED="1576823190765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mytest/D0001_STANDAPI" />
+    <SUITE FILE_PATH="coverage/ApiShopping$.coverage" NAME="互联魔方 Coverage Results" MODIFIED="1592548388661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyTest/D0001_STANDAPI" />
+    <SUITE FILE_PATH="coverage/ApiShopping$Test_Case_D0004.coverage" NAME="Test_Case_D0004 Coverage Results" MODIFIED="1561374187899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testsuite/D0004_UNICOM" />
+    <SUITE FILE_PATH="coverage/ApiShopping$3_0API.coverage" NAME="标准3.0API Coverage Results" MODIFIED="1568692508900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/郭海龙/工作相关/P-Python/Comon/Comon" />
+    <SUITE FILE_PATH="coverage/ApiShopping$T007_AutarkyReturn.coverage" NAME="T007_AutarkyReturn Coverage Results" MODIFIED="1593358572344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ToolsScript" />
+    <SUITE FILE_PATH="coverage/ApiShopping$ApiTestPRD.coverage" NAME="ApiTestPRD Coverage Results" MODIFIED="1587662936526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mytest/D0001_STANDAPI" />
+    <SUITE FILE_PATH="coverage/ApiShopping$HDJT_STAND.coverage" NAME="HDJT_STAND Coverage Results" MODIFIED="1592465927915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testsuite/D0027_HDJT" />
+    <SUITE FILE_PATH="coverage/ApiShopping$T011_Factorydelivery.coverage" NAME="T011_Factorydelivery Coverage Results" MODIFIED="1593343651272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ToolsScript" />
+    <SUITE FILE_PATH="coverage/ApiShopping$RSF.coverage" NAME="RSF日志查询 Coverage Results" MODIFIED="1574233673182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/郭海龙/工作相关/P-Python/Comon/常用脚本" />
+    <SUITE FILE_PATH="coverage/ApiShopping$ApiTest_.coverage" NAME="ApiTest_魔方 Coverage Results" MODIFIED="1592355921164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyTest/D0001_STANDAPI" />
+    <SUITE FILE_PATH="coverage/ApiShopping$Test_Case_D0045.coverage" NAME="Test_Case_D0045 Coverage Results" MODIFIED="1588671244965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testsuite/D0045_ICBC" />
+    <SUITE FILE_PATH="coverage/ApiShopping$ApiTest__3_.coverage" NAME="ApiTest (3) Coverage Results" MODIFIED="1590649296821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testsuite/D0043_CCYQ" />
+    <SUITE FILE_PATH="coverage/ApiShopping$tools.coverage" NAME="tools Coverage Results" MODIFIED="1571016534322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/UpdateOrderState/Tool" />
+    <SUITE FILE_PATH="coverage/ApiShopping$b.coverage" NAME="b Coverage Results" MODIFIED="1586318167799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/郭海龙/工作相关/P-Python/Comon/常用脚本" />
+    <SUITE FILE_PATH="coverage/ApiShopping$T002_PushMessge.coverage" NAME="T002_PushMessge Coverage Results" MODIFIED="1593573073487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ToolsScript" />
+    <SUITE FILE_PATH="coverage/ApiShopping$T004_ReturnPart.coverage" NAME="T004_ReturnPart Coverage Results" MODIFIED="1592306265753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ToolsScript" />
+    <SUITE FILE_PATH="coverage/ApiShopping$T0014_GctestBill.coverage" NAME="T0014_GctestBill Coverage Results" MODIFIED="1592489527108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ToolsScript" />
+    <SUITE FILE_PATH="coverage/ApiShopping$dict_sort.coverage" NAME="dict_sort Coverage Results" MODIFIED="1579655354112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tools" />
+    <SUITE FILE_PATH="coverage/ApiShopping$AES_cryption.coverage" NAME="AES_cryption Coverage Results" MODIFIED="1583995255374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tools" />
+    <SUITE FILE_PATH="coverage/ApiShopping$AutoTestPlatForm.coverage" NAME="AutoTestPlatForm Coverage Results" MODIFIED="1570709239998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ApiShopping$producer.coverage" NAME="producer Coverage Results" MODIFIED="1572580181069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/郭海龙/工作相关/P-Python/Comon/常用脚本" />
+    <SUITE FILE_PATH="coverage/ApiShopping$T003_PriceChange.coverage" NAME="T003_PriceChange Coverage Results" MODIFIED="1587520784193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ToolsScript" />
+    <SUITE FILE_PATH="coverage/ApiShopping$AutoTestingPlatForm.coverage" NAME="AutoTestingPlatForm Coverage Results" MODIFIED="1570633030627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ApiShopping$other.coverage" NAME="other Coverage Results" MODIFIED="1573354037621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ToolsScript" />
+    <SUITE FILE_PATH="coverage/ApiShopping$other__1_.coverage" NAME="other (1) Coverage Results" MODIFIED="1573463235524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/郭海龙/工作相关/P-Python/Comon/常用脚本" />
+    <SUITE FILE_PATH="coverage/ApiShopping$myTax.coverage" NAME="myTax Coverage Results" MODIFIED="1592307142092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyTest/Other" />
+    <SUITE FILE_PATH="coverage/ApiShopping$CdgovTest.coverage" NAME="CdgovTest Coverage Results" MODIFIED="1561087114506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testsuite/D0006_CDGOV" />
+    <SUITE FILE_PATH="coverage/ApiShopping$T005_AccountAuth.coverage" NAME="T005_AccountAuth Coverage Results" MODIFIED="1577351365883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ToolsScript" />
+    <SUITE FILE_PATH="coverage/ApiShopping$T001_BillingInfo.coverage" NAME="T001_BillingInfo Coverage Results" MODIFIED="1589008640051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ToolsScript" />
+    <SUITE FILE_PATH="coverage/ApiShopping$test_l0_01_getToken.coverage" NAME="test_l0_01_getToken Coverage Results" MODIFIED="1561123636064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testsuite/D0003_GJDW/API_00_getToken" />
+    <SUITE FILE_PATH="coverage/ApiShopping$T006_AutarkySend.coverage" NAME="T006_AutarkySend Coverage Results" MODIFIED="1592556792405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ToolsScript" />
+    <SUITE FILE_PATH="coverage/ApiShopping$updateorderstate.coverage" NAME="updateorderstate Coverage Results" MODIFIED="1571015566978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/UpdateOrderState" />
+    <SUITE FILE_PATH="coverage/ApiShopping$Test_Case_D0027.coverage" NAME="Test_Case_D0027 Coverage Results" MODIFIED="1588745512546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testsuite/D0027_HDJT" />
+    <SUITE FILE_PATH="coverage/ApiShopping$ApiTestxgpre.coverage" NAME="ApiTestxgpre Coverage Results" MODIFIED="1588752026119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mytest/D0001_STANDAPI" />
+    <SUITE FILE_PATH="coverage/ApiShopping$Test_Case_D0043.coverage" NAME="Test_Case_D0043 Coverage Results" MODIFIED="1588755339254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testsuite/D0043_CCYQ" />
+    <SUITE FILE_PATH="coverage/ApiShopping$hxyhTest.coverage" NAME="hxyhTest Coverage Results" MODIFIED="1592379710683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testsuite/D0016_JSYH" />
+    <SUITE FILE_PATH="coverage/ApiShopping$tlzjTest.coverage" NAME="tlzjTest Coverage Results" MODIFIED="1574249626298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testsuite/D0028_TLZJ" />
+    <SUITE FILE_PATH="coverage/ApiShopping$Test_Case_D0039.coverage" NAME="Test_Case_D0039 Coverage Results" MODIFIED="1588753598375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testsuite/D0039_TJSC" />
+    <SUITE FILE_PATH="coverage/ApiShopping$ApiTest_prd.coverage" NAME="ApiTest_prd Coverage Results" MODIFIED="1591348952312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyTest/D0001_STANDAPI" />
+    <SUITE FILE_PATH="coverage/ApiShopping$2.coverage" NAME="自营发货脚本2 Coverage Results" MODIFIED="1569737177124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/郭海龙/工作相关/P-Python/Comon/常用脚本" />
+    <SUITE FILE_PATH="coverage/ApiShopping$c.coverage" NAME="c Coverage Results" MODIFIED="1588669106403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/郭海龙/工作相关/P-Python/Comon/常用脚本" />
+    <SUITE FILE_PATH="coverage/ApiShopping$XG_INVOICE.coverage" NAME="XG_INVOICE Coverage Results" MODIFIED="1582097237709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mytest/D0001_STANDAPI" />
+    <SUITE FILE_PATH="coverage/ApiShopping$T010_OpenInvoices.coverage" NAME="T010_OpenInvoices Coverage Results" MODIFIED="1593585585324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ToolsScript" />
+    <SUITE FILE_PATH="coverage/ApiShopping$ApiTest__4_.coverage" NAME="ApiTest (4) Coverage Results" MODIFIED="1571367454381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testsuite/D0001_STANDAPI" />
+    <SUITE FILE_PATH="coverage/ApiShopping$ApiTest.coverage" NAME="ApiTest太平 Coverage Results" MODIFIED="1593585599901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyTest/D0001_STANDAPI" />
+    <SUITE FILE_PATH="coverage/ApiShopping$RSA_cryption.coverage" NAME="RSA_cryption Coverage Results" MODIFIED="1583982182796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tools" />
+    <SUITE FILE_PATH="coverage/ApiShopping$ApiTest__1_.coverage" NAME="ApiTest (1) Coverage Results" MODIFIED="1592550898688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testsuite/D0014_TJNH" />
+    <SUITE FILE_PATH="coverage/ApiShopping$Test_01.coverage" NAME="Test_01 Coverage Results" MODIFIED="1559041496961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testsuite/D0024_HRSZ" />
+    <SUITE FILE_PATH="coverage/ApiShopping$GCTEST_05_06.coverage" NAME="GCTEST_05_06 Coverage Results" MODIFIED="1592488813175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyTest/Other" />
+    <SUITE FILE_PATH="coverage/ApiShopping$Test_Case_D0024.coverage" NAME="Test_Case_D0024 Coverage Results" MODIFIED="1562059099290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testsuite/D0024_HRSZ" />
+    <SUITE FILE_PATH="coverage/ApiShopping$Base.coverage" NAME="Base Coverage Results" MODIFIED="1584351648247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API/D0046_CTCC" />
+    <SUITE FILE_PATH="coverage/ApiShopping$ApiTest_HBYC.coverage" NAME="ApiTest_HBYC Coverage Results" MODIFIED="1590481316726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testsuite/D0043_CCYQ" />
+    <SUITE FILE_PATH="coverage/ApiShopping$T015_GctestInvoice.coverage" NAME="T015_GctestInvoice Coverage Results" MODIFIED="1592489891245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ToolsScript" />
+    <SUITE FILE_PATH="coverage/ApiShopping$ApiTest_xg.coverage" NAME="ApiTest_xg Coverage Results" MODIFIED="1593501578842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyTest/D0001_STANDAPI" />
+    <SUITE FILE_PATH="coverage/ApiShopping$ZZJWTest.coverage" NAME="ZZJWTest Coverage Results" MODIFIED="1577720763184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testsuite/D0025_ZZJW" />
+    <SUITE FILE_PATH="coverage/ApiShopping$Test_Case_D0012.coverage" NAME="Test_Case_D0012 Coverage Results" MODIFIED="1588667355785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testsuite/D0012_PAEW" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ApiTest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyTest/D0001_STANDAPI/ApiTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="84" column="57" lean-forward="true" selection-start-line="84" selection-start-column="57" selection-end-line="84" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApiTest_xg.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyTest/D0001_STANDAPI/ApiTest_xg.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="T010_OpenInvoices.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ToolsScript/T010_OpenInvoices.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="76" column="90" lean-forward="true" selection-start-line="76" selection-start-column="90" selection-end-line="76" selection-end-column="90" />
+              <folding>
+                <element signature="e#163#193#0" expanded="true" />
+                <marker date="1593585585189" expanded="true" signature="948:1050" ph="select cust_... srcorder_itemmissing_value" />
+                <marker date="1593585585189" expanded="true" signature="1618:1940" ph="update invoice_merge_reissue_order_send_statusmissing_value... " />
+                <marker date="1593585585189" expanded="true" signature="2352:2418" ph="select invoi... srcorder_headermissing_value" />
+                <marker date="1593585585189" expanded="true" signature="2537:2683" ph="select tax_n... invoice_merge_reissue_order_infomissing_value" />
+                <marker date="1593585585189" expanded="true" signature="3411:3485" ph="SELECT 1 FRO... invoice_merge_reissue_invoice_info" />
+                <marker date="1593585585189" expanded="true" signature="3695:4530" ph="INSERT INTO invoice_merge_reissue_invoice_info... " />
+                <marker date="1593585585189" expanded="true" signature="3695:4558" ph="INSERT INTO invoice_merge_reissue_invoice_infomissing_value... " />
+                <marker date="1593585585189" expanded="true" signature="4965:5018" ph="SELECT 1 FRO... invoice_base_info" />
+                <marker date="1593585585189" expanded="true" signature="5105:5224" ph="INSERT INTO invoice_base_info... " />
+                <marker date="1593585585189" expanded="true" signature="5105:5785" ph="INSERT INTO invoice_base_info... " />
+                <marker date="1593585585189" expanded="true" signature="5105:5786" ph="INSERT INTO invoice_base_info... " />
+                <marker date="1593585585189" expanded="true" signature="6090:6953" ph="INSERT INTO gcmspre1.invoice_common_info... " />
+                <marker date="1593585585189" expanded="true" signature="7114:7161" ph="SELECT 1 fro... invoice_order_relation" />
+                <marker date="1593585585189" expanded="true" signature="7114:7166" ph="SELECT 1 fro... invoice_order_relation" />
+                <marker date="1593585585189" expanded="true" signature="7114:7176" ph="SELECT 1 fro... invoice_order_relation" />
+                <marker date="1593585585189" expanded="true" signature="7236:7305" ph="SELECT order... srcorder_info_index" />
+                <marker date="1593585585189" expanded="true" signature="7414:7480" ph="UPDATE invoice_order_relation... " />
+                <marker date="1593585585189" expanded="true" signature="7414:7671" ph="UPDATE invoice_order_relation... " />
+                <marker date="1593585585189" expanded="true" signature="7797:8081" ph="INSERT INTO gcmspre1.invoice_order_relation... " />
+                <marker date="1593585585189" expanded="true" signature="7797:8082" ph="INSERT INTO gcmspre1.invoice_order_relation... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="T002_PushMessge.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ToolsScript/T002_PushMessge.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="317" column="13" lean-forward="true" selection-start-line="317" selection-start-column="13" selection-end-line="317" selection-end-column="13" />
+              <folding>
+                <element signature="e#158#187#0" expanded="true" />
+                <marker date="1593573073366" expanded="true" signature="1491:1593" ph="select commd... srcorder_itemmissing_value" />
+                <marker date="1593573073366" expanded="true" signature="1693:1766" ph="update srcorder_itemmissing_value... " />
+                <marker date="1593573073366" expanded="true" signature="1864:1965" ph="select commd... srcorder_itemmissing_value" />
+                <marker date="1593573073366" expanded="true" signature="2069:2141" ph="update srcorder_itemmissing_value... " />
+                <marker date="1593573073366" expanded="true" signature="2493:2553" ph="update srcorder_itemmissing_value... " />
+                <marker date="1593573073366" expanded="true" signature="4017:4329" ph="INSERT INTO gcapi_push_messagemissing_value... " />
+                <marker date="1593573073366" expanded="true" signature="4556:4635" ph="update invoice_merge_reissue_order_infomissing_value... " />
+                <marker date="1593573073366" expanded="true" signature="5971:6295" ph="INSERT INTO gcapi_push_messagemissing_value... " />
+                <marker date="1593573073366" expanded="true" signature="7275:7356" ph="select table... gc_product_pool_split_strategy_config" />
+                <marker date="1593573073366" expanded="true" signature="7422:7515" ph="select my_ca... zs_prd_pool_singlemissing_value" />
+                <marker date="1593573073366" expanded="true" signature="8395:8750" ph="INSERT INTO gcapi_push_messagemissing_value... " />
+                <marker date="1593573073366" expanded="true" signature="9600:9953" ph="INSERT INTO gcapi_push_messagemissing_value... " />
+                <marker date="1593573073366" expanded="true" signature="10916:11304" ph="INSERT INTO gcapi_push_messagemissing_value... " />
+                <marker date="1593573073366" expanded="true" signature="12451:12510" ph="SELECT gc_it... srcorder_item" />
+                <marker date="1593573073366" expanded="true" signature="13163:13577" ph="INSERT INTO gcapi_push_messagemissing_value... " />
+                <marker date="1593573073366" expanded="true" signature="14742:15156" ph="INSERT INTO gcapi_push_messagemissing_value... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="互联魔方.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MyTest/D0001_STANDAPI/互联魔方.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="25" column="53" lean-forward="true" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jsyhTest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Testsuite/D0016_JSYH/jsyhTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="95" lean-forward="true" selection-start-line="20" selection-start-column="95" selection-end-line="20" selection-end-column="95" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test_Case_D0016.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Testsuite/D0016_JSYH/Test_Case_D0016.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>invoiceCo</find>
+      <find>invoiceId</find>
+      <find>价格</find>
+      <find>appcode</find>
+      <find>91510000990720110A</find>
+      <find>getProductQuantity</find>
+      <find>627e8af9-6373-484c-b431-98aa198a8f21</find>
+      <find>table_num</find>
+      <find>mobile</find>
+      <find>orderCode</find>
+      <find>102473734</find>
+      <find>a</find>
+      <find>markId</find>
+      <find>3200131530</find>
+      <find>refnum</find>
+      <find>mar</find>
+      <find>invoiceCode</find>
+      <find>ref</find>
+      <find>账单</find>
+      <find>补开</find>
+      <find>refn</find>
+      <find>厂送</find>
+      <find>markid</find>
+      <find>退货</find>
+      <find>invoiceid</find>
+      <find>invoice_sn</find>
+      <find>售后</find>
+      <find>srcorder_item</find>
+      <find>state</find>
+      <find>invoice_merge_reissue_invoice_info</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/API/D0039_TJSC/Base.py" />
+        <option value="$PROJECT_DIR$/Testsuite/D0039_TJSC/Test_Case_D0039.py" />
+        <option value="$PROJECT_DIR$/Testsuite/D0049_BHYH/ApiTest.py" />
+        <option value="$PROJECT_DIR$/Testsuite/D0043_CCYQ/Test_Case_D0043.py" />
+        <option value="$PROJECT_DIR$/API/D0012_PAEW/Base.py" />
+        <option value="$PROJECT_DIR$/API/D0045_ICBC/Base.py" />
+        <option value="$PROJECT_DIR$/API/D0054_BHYH/Base.py" />
+        <option value="$PROJECT_DIR$/Testsuite/D0039_TJSC/ApiTest.py" />
+        <option value="$PROJECT_DIR$/Testsuite/D0001_STANDAPI/ApiTest.py" />
+        <option value="$PROJECT_DIR$/Testsuite/D0043_CCYQ/ApiTest.py" />
+        <option value="$PROJECT_DIR$/Testsuite/D0054_BHYH/ApiTest.py" />
+        <option value="$PROJECT_DIR$/Testsuite/D0012_PAEW/ApiTest.py" />
+        <option value="$PROJECT_DIR$/ToolsScript/T013_GctestPriceChange.py" />
+        <option value="$PROJECT_DIR$/Testsuite/D0043_CCYQ/ApiTest_HBYC.py" />
+        <option value="$PROJECT_DIR$/MyTest/D0001_STANDAPI/ApiTest_prd.py" />
+        <option value="$PROJECT_DIR$/API/D0027_HDJT/url.py" />
+        <option value="$PROJECT_DIR$/API/D0016_JSYH/Base.py" />
+        <option value="$PROJECT_DIR$/API/D0016_JSYH/url.py" />
+        <option value="$PROJECT_DIR$/ToolsScript/T004_ReturnPart.py" />
+        <option value="$PROJECT_DIR$/MyTest/Other/myTax.py" />
+        <option value="$PROJECT_DIR$/MyTest/D0001_STANDAPI/ApiTest_魔方.py" />
+        <option value="$PROJECT_DIR$/Testsuite/D0016_JSYH/jsyhTest.py" />
+        <option value="$PROJECT_DIR$/Testsuite/D0016_JSYH/hxyhTest.py" />
+        <option value="$PROJECT_DIR$/API/D0043_CCYQ/Base.py" />
+        <option value="$PROJECT_DIR$/Testsuite/D0027_HDJT/ApiTest.py" />
+        <option value="$PROJECT_DIR$/Testsuite/D0027_HDJT/HDJT_STAND.py" />
+        <option value="$PROJECT_DIR$/Testsuite/D0046_CTCC/ApiTest.py" />
+        <option value="$PROJECT_DIR$/API/D0001_STANDAPI/url.py" />
+        <option value="$PROJECT_DIR$/MyTest/Other/GCTEST_05_06.py" />
+        <option value="$PROJECT_DIR$/ToolsScript/T0014_GctestBill.py" />
+        <option value="$PROJECT_DIR$/ToolsScript/T015_GctestInvoice.py" />
+        <option value="$PROJECT_DIR$/ToolsScript/T014_GctestBill.py" />
+        <option value="$PROJECT_DIR$/API/D0003_GJDW/Base.py" />
+        <option value="$PROJECT_DIR$/Testsuite/D0003_GJDW/ApiTest.py" />
+        <option value="$PROJECT_DIR$/Testsuite/D0014_TJNH/ApiTest.py" />
+        <option value="$PROJECT_DIR$/ToolsScript/T006_AutarkySend.py" />
+        <option value="$PROJECT_DIR$/Testsuite/D0023_NFHK/ApiTest.py" />
+        <option value="$PROJECT_DIR$/Testsuite/D0045_ICBC/ApiTest.py" />
+        <option value="$PROJECT_DIR$/Testsuite/D0043_CCYQ/ApiTest_DBWL.py" />
+        <option value="$PROJECT_DIR$/ToolsScript/T008_AutarkySend_new.py" />
+        <option value="$PROJECT_DIR$/ToolsScript/T011_Factorydelivery.py" />
+        <option value="$PROJECT_DIR$/API/D0001_STANDAPI/Base.py" />
+        <option value="$PROJECT_DIR$/Tools/tools.py" />
+        <option value="$PROJECT_DIR$/ToolsScript/T007_AutarkyReturn.py" />
+        <option value="$PROJECT_DIR$/MyTest/D0001_STANDAPI/ApiTest.py" />
+        <option value="$PROJECT_DIR$/MyTest/D0001_STANDAPI/ApiTest_xg.py" />
+        <option value="$PROJECT_DIR$/ToolsScript/T002_PushMessge.py" />
+        <option value="$PROJECT_DIR$/ToolsScript/T010_OpenInvoices.py" />
+        <option value="$PROJECT_DIR$/MyTest/Other/a.py" />
+        <option value="$PROJECT_DIR$/MyTest/D0001_STANDAPI/ApiTest太平.py" />
+        <option value="$PROJECT_DIR$/MyTest/D0001_STANDAPI/互联魔方.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Python</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ApiShopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiShopping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiShopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiShopping" type="462c0819:PsiDirectoryNode" />
+              <item name="MyTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiShopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiShopping" type="462c0819:PsiDirectoryNode" />
+              <item name="MyTest" type="462c0819:PsiDirectoryNode" />
+              <item name="D0001_STANDAPI" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="ChainAdd&#9;null&#9;null&#10;relativedelta&#9;null&#9;null" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="settings.editor.splitter.proportion" value="0.24902344" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\ApiShopping\MyTest\D0001_STANDAPI" />
+      <recent name="E:\workspace\ApiShopping\Testsuite\D0043_CCYQ" />
+      <recent name="E:\workspace\ApiShopping\MyTest" />
+      <recent name="E:\郭海龙\工作相关\P-Python\Comon\libs" />
+      <recent name="E:\郭海龙\工作相关\P-Python\Comon\Jar" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.a">
+    <configuration name="ApiTest (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyTest/D0001_STANDAPI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="API" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MyTest/D0001_STANDAPI/ApiTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="ApiTest太平" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyTest/D0001_STANDAPI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="API" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MyTest/D0001_STANDAPI/ApiTest太平.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="ApiTest_xg" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyTest/D0001_STANDAPI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="API" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MyTest/D0001_STANDAPI/ApiTest_xg.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="T002_PushMessge" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\suning\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ToolsScript" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="API" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ToolsScript/T002_PushMessge.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="T010_OpenInvoices" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ToolsScript" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="API" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ToolsScript/T010_OpenInvoices.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="a" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyTest/Other" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="API" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MyTest/Other/a.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Python.T002_PushMessge" />
+      <item index="1" class="java.lang.String" itemvalue="Python.ApiTest (2)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.T010_OpenInvoices" />
+      <item index="3" class="java.lang.String" itemvalue="Python.ApiTest太平" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ApiTest_xg" />
+      <item index="5" class="java.lang.String" itemvalue="Python.a" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.a" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ApiTest太平" />
+        <item index="2" class="java.lang.String" itemvalue="Python.T010_OpenInvoices" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ApiTest_xg" />
+        <item index="4" class="java.lang.String" itemvalue="Python.ApiTest (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\suning\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+    <option name="FORCE_UPDATE" value="true" />
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\workspace\ApiShopping" />
+          <option name="myCopyRoot" value="E:\workspace\ApiShopping" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\workspace\ApiShopping" />
+          <option name="myCopyRoot" value="E:\workspace\ApiShopping" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02ceff3c-543d-4357-8c11-4ef6e663c7f2" name="Default" comment="" />
+      <created>1557996820074</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557996820074</updated>
+    </task>
+    <task id="LOCAL-00101" summary="rsa加密">
+      <created>1582596604297</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1582596604298</updated>
+    </task>
+    <task id="LOCAL-00102" summary="平安价格增加城市">
+      <created>1583486026052</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1583486026052</updated>
+    </task>
+    <task id="LOCAL-00103" summary="工行">
+      <created>1584003831337</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1584003831337</updated>
+    </task>
+    <task id="LOCAL-00104" summary="电信可售性校验">
+      <created>1584005299641</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1584005299641</updated>
+    </task>
+    <task id="LOCAL-00105" summary="推消息时，增加是否有分表的判断">
+      <created>1584069530917</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1584069530919</updated>
+    </task>
+    <task id="LOCAL-00106" summary="电信下单">
+      <created>1584079430344</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1584079430344</updated>
+    </task>
+    <task id="LOCAL-00107" summary="电信">
+      <created>1584087826517</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1584087826517</updated>
+    </task>
+    <task id="LOCAL-00108" summary="长春一汽">
+      <created>1584525999476</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1584525999477</updated>
+    </task>
+    <task id="LOCAL-00109" summary="电信下单接口">
+      <created>1584672909056</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1584672909056</updated>
+    </task>
+    <task id="LOCAL-00110" summary="推消息时，增加是否有分表的判断">
+      <created>1585553420208</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1585553420210</updated>
+    </task>
+    <task id="LOCAL-00111" summary="长春">
+      <created>1585640785628</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1585640785628</updated>
+    </task>
+    <task id="LOCAL-00112" summary="部分退脚本增加12-4的消息">
+      <created>1586317924245</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1586317924246</updated>
+    </task>
+    <task id="LOCAL-00113" summary="部分退脚本增加12-4的消息">
+      <created>1586318225605</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1586318225605</updated>
+    </task>
+    <task id="LOCAL-00114" summary="提交河北烟草账号">
+      <created>1586331390546</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1586331390547</updated>
+    </task>
+    <task id="LOCAL-00115" summary="修改对账结果通知消息接口">
+      <created>1586653815734</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1586653815734</updated>
+    </task>
+    <task id="LOCAL-00116" summary="平安测试脚本">
+      <created>1588667483391</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1588667483391</updated>
+    </task>
+    <task id="LOCAL-00117" summary="平安测试脚本">
+      <created>1588667696275</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1588667696275</updated>
+    </task>
+    <task id="LOCAL-00118" summary="遂宁市政府">
+      <created>1588736364672</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1588736364673</updated>
+    </task>
+    <task id="LOCAL-00119" summary="遂宁市政府">
+      <created>1588736377489</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1588736377489</updated>
+    </task>
+    <task id="LOCAL-00120" summary="华电集团脚本">
+      <created>1588745593844</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1588745593845</updated>
+    </task>
+    <task id="LOCAL-00121" summary="华电集团脚本">
+      <created>1588745745885</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1588745745885</updated>
+    </task>
+    <task id="LOCAL-00122" summary="天津市采脚本">
+      <created>1588754186390</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1588754186390</updated>
+    </task>
+    <task id="LOCAL-00123" summary="天津市采脚本">
+      <created>1588754219724</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1588754219724</updated>
+    </task>
+    <task id="LOCAL-00124" summary="长春一汽脚本">
+      <created>1588755395853</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1588755395853</updated>
+    </task>
+    <task id="LOCAL-00125" summary="长春一汽脚本">
+      <created>1588755409950</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1588755409950</updated>
+    </task>
+    <task id="LOCAL-00126" summary="平安查价格">
+      <created>1589016509089</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1589016509090</updated>
+    </task>
+    <task id="LOCAL-00127" summary="工行">
+      <created>1589525319085</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1589525319086</updated>
+    </task>
+    <task id="LOCAL-00128" summary="长春一汽脚本">
+      <created>1589944968122</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1589944968123</updated>
+    </task>
+    <task id="LOCAL-00129" summary="产生12-4消息时，加入num">
+      <created>1589963444704</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1589963444704</updated>
+    </task>
+    <task id="LOCAL-00130" summary="华夏银行项目">
+      <created>1591085990667</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1591085990668</updated>
+    </task>
+    <task id="LOCAL-00131" summary="推消息时，增加是否有分表的判断">
+      <created>1591340229633</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1591340229633</updated>
+    </task>
+    <task id="LOCAL-00132" summary="CCYQ">
+      <created>1591343047852</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1591343047852</updated>
+    </task>
+    <task id="LOCAL-00133" summary="华夏">
+      <created>1591581651765</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1591581651766</updated>
+    </task>
+    <task id="LOCAL-00134" summary="华夏">
+      <created>1591581675361</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1591581675361</updated>
+    </task>
+    <task id="LOCAL-00135" summary="华夏">
+      <created>1591618034403</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1591618034403</updated>
+    </task>
+    <task id="LOCAL-00136" summary="华夏">
+      <created>1591618156613</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1591618156613</updated>
+    </task>
+    <task id="LOCAL-00137" summary="华夏">
+      <created>1591618203539</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1591618203539</updated>
+    </task>
+    <task id="LOCAL-00138" summary="华夏">
+      <created>1591618230087</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1591618230087</updated>
+    </task>
+    <task id="LOCAL-00139" summary="华夏">
+      <created>1591619381917</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1591619381917</updated>
+    </task>
+    <task id="LOCAL-00140" summary="部分退脚本入参增加母账号会员编码">
+      <created>1591760636047</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1591760636047</updated>
+    </task>
+    <task id="LOCAL-00141" summary="1、手插消息增加母账号会员编码&#10;2、去掉写入主表数据（订单与消息）">
+      <created>1591866918664</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1591866918665</updated>
+    </task>
+    <task id="LOCAL-00142" summary="德邦物流">
+      <created>1592464076366</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1592464076366</updated>
+    </task>
+    <task id="LOCAL-00143" summary="增加GCTEST账单和发票">
+      <created>1592490031852</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1592490031852</updated>
+    </task>
+    <task id="LOCAL-00144" summary="华电">
+      <created>1593312976861</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1593312976863</updated>
+    </task>
+    <task id="LOCAL-00145" summary="开票脚本增加邮寄状态-妥投">
+      <created>1593336857627</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1593336857627</updated>
+    </task>
+    <task id="LOCAL-00146" summary="造发票增加三张表">
+      <created>1593355844051</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1593355844051</updated>
+    </task>
+    <task id="LOCAL-00147" summary="发票三张表">
+      <created>1593357088018</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1593357088018</updated>
+    </task>
+    <task id="LOCAL-00148" summary="发票三张表">
+      <created>1593357554297</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1593357554298</updated>
+    </task>
+    <task id="LOCAL-00149" summary="工具增加分表">
+      <created>1593359729291</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1593359729291</updated>
+    </task>
+    <option name="localTasksCounter" value="150" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7239000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.4978678" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3359375" sideWeight="0.51759064" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.47867805" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.4978678" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39732143" sideWeight="0.4824094" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1663113" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4497768" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946696" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14620535" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.50747865" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49252138" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4330357" sideWeight="0.49198717" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12633263" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946696" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14726028" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4497768" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="平安测试脚本" />
+    <MESSAGE value="遂宁市政府" />
+    <MESSAGE value="华电集团脚本" />
+    <MESSAGE value="天津市采脚本" />
+    <MESSAGE value="常用脚本" />
+    <MESSAGE value="平安查价格" />
+    <MESSAGE value="工行" />
+    <MESSAGE value="长春一汽脚本" />
+    <MESSAGE value="产生12-4消息时，加入num" />
+    <MESSAGE value="增加12-4消息体中num" />
+    <MESSAGE value="华夏银行项目" />
+    <MESSAGE value="推12-4消息时，增加" />
+    <MESSAGE value="CCYQ" />
+    <MESSAGE value="推消息时，增加是否有分表的判断" />
+    <MESSAGE value="1" />
+    <MESSAGE value="华夏" />
+    <MESSAGE value="部分退脚本入参增加母账号会员编码" />
+    <MESSAGE value="1、手插消息增加母账号会员编码&#10;2、去掉写入主表数据（订单与消息）" />
+    <MESSAGE value="德邦物流" />
+    <MESSAGE value="增加GCTEST账单和发票" />
+    <MESSAGE value="华电" />
+    <MESSAGE value="开票脚本增加邮寄状态-妥投" />
+    <MESSAGE value="造发票增加三张表" />
+    <MESSAGE value="发票三张表" />
+    <MESSAGE value="工具增加分表" />
+    <option name="LAST_COMMIT_MESSAGE" value="工具增加分表" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/API/D0001_STANDAPI/Base.py</url>
+          <line>427</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/API/D0012_PAEW/Base.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ToolsScript/T004_ReturnPart.py</url>
+          <line>85</line>
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="215" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/API$ApiTest.coverage" NAME="ApiTest Coverage Results" MODIFIED="1576231077829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testsuite/D0040_JWSC" />
+    <SUITE FILE_PATH="coverage/API$Base.coverage" NAME="Base Coverage Results" MODIFIED="1576464261494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API/D0041_BQSC" />
+    <SUITE FILE_PATH="coverage/API$ApiTest__1_.coverage" NAME="ApiTest (1) Coverage Results" MODIFIED="1576467430533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testsuite/D0041_BQSC" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Testsuite/D0046_CTCC/ApiTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ToolsScript/T013_GctestPriceChange.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ToolsScript/T015_GctestInvoice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ToolsScript/T014_GctestBill.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ToolsScript/T012_GctestLogist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/D0003_GJDW/Base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="65" column="8" lean-forward="false" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testsuite/D0003_GJDW/ApiTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="86" lean-forward="false" selection-start-line="17" selection-start-column="86" selection-end-line="17" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testsuite/D0014_TJNH/ApiTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ToolsScript/T006_AutarkySend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11441">
+          <caret line="675" column="0" lean-forward="false" selection-start-line="675" selection-start-column="0" selection-end-line="675" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testsuite/D0022_DXZY/ApiTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/D0023_NFHK/url.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/D0023_NFHK/Base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="48" column="14" lean-forward="true" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testsuite/D0023_NFHK/ApiTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/D0043_CCYQ/url.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/D0043_CCYQ/Base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3485">
+          <caret line="213" column="8" lean-forward="false" selection-start-line="213" selection-start-column="8" selection-end-line="213" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testsuite/D0045_ICBC/ApiTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/D0045_ICBC/Base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2992">
+          <caret line="184" column="25" lean-forward="false" selection-start-line="184" selection-start-column="25" selection-end-line="184" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ToolsScript/T008_AutarkySend_new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12546">
+          <caret line="740" column="30" lean-forward="false" selection-start-line="740" selection-start-column="16" selection-end-line="740" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testsuite/D0027_HDJT/HDJT_STAND.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testsuite/D0027_HDJT/ApiTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/D0027_HDJT/Base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="117" column="30" lean-forward="false" selection-start-line="117" selection-start-column="30" selection-end-line="117" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/D0027_HDJT/url.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" lean-forward="true" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testsuite/D0043_CCYQ/ApiTest_DBWL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="13" column="88" lean-forward="false" selection-start-line="13" selection-start-column="88" selection-end-line="13" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ToolsScript/T011_Factorydelivery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="339" column="30" lean-forward="true" selection-start-line="339" selection-start-column="30" selection-end-line="339" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pymysql/cursors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="169" column="0" lean-forward="false" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tools/operatetool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+            <marker date="1591946455989" expanded="true" signature="345:396" ph="select p_org... zs_org" />
+            <marker date="1591946455989" expanded="true" signature="706:771" ph="SELECT top_o... srcorder_info_index" />
+            <marker date="1591946455989" expanded="true" signature="851:915" ph="SELECT top_o... srcorder_info_index" />
+            <marker date="1591946455989" expanded="true" signature="1030:1103" ph="select table... gc_order_split_strategy_config" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tools/base64_en.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-139">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tools/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tools/dict_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-173">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tools/url_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tools/excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="61" column="24" lean-forward="false" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ToolsScript/T007_AutarkyReturn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="410" column="77" lean-forward="true" selection-start-line="410" selection-start-column="77" selection-end-line="410" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tools/RSA_cryption.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-361">
+          <caret line="12" column="63" lean-forward="true" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest/D0001_STANDAPI/ApiTest_xg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/D0001_STANDAPI/url.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="397" column="54" lean-forward="false" selection-start-line="397" selection-start-column="18" selection-end-line="397" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/D0001_STANDAPI/Base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="2049" column="51" lean-forward="false" selection-start-line="2049" selection-start-column="51" selection-end-line="2049" selection-end-column="51" />
+          <folding>
+            <marker date="1593349006891" expanded="true" signature="26408:26495" ph="select branc... srcorder_sub_paymethod" />
+            <marker date="1593349006891" expanded="true" signature="66004:66076" ph="select gc_it... srcorder_item" />
+            <marker date="1593349006891" expanded="true" signature="66261:66338" ph="select gong_... gcapi_after_sales" />
+            <marker date="1593349006891" expanded="true" signature="67036:67096" ph="select commd... srcorder_item" />
+            <marker date="1593349006891" expanded="true" signature="67267:67344" ph="select gong_... gcapi_after_sales" />
+            <marker date="1593349006891" expanded="true" signature="69825:69910" ph="select gc_it... srcorder_item" />
+            <marker date="1593349006891" expanded="true" signature="70187:70264" ph="select gong_... gcapi_after_sales" />
+            <marker date="1593349006891" expanded="true" signature="71044:71121" ph="select gong_... gcapi_after_sales" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest/D0001_STANDAPI/ApiTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="84" column="57" lean-forward="true" selection-start-line="84" selection-start-column="57" selection-end-line="84" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pymysql/connections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="411" column="8" lean-forward="false" selection-start-line="411" selection-start-column="8" selection-end-line="411" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tools/mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tools/tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <marker date="1593353106387" expanded="true" signature="837:899" ph="select token... api_token" />
+            <marker date="1593353106387" expanded="true" signature="1298:1360" ph="select token... api_token" />
+            <marker date="1593353106387" expanded="true" signature="5164:5235" ph="SELECT unit_... srcorder_item" />
+            <marker date="1593353106387" expanded="true" signature="5557:5643" ph="select porti... srcorder_item_portion_return" />
+            <marker date="1593353106387" expanded="true" signature="6588:6643" ph="select api_s... gc_secret" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testsuite/D0016_JSYH/jsyhTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="95" lean-forward="true" selection-start-line="20" selection-start-column="95" selection-end-line="20" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/allure/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pytest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testsuite/D0016_JSYH/Test_Case_D0016.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ToolsScript/T010_OpenInvoices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="76" column="90" lean-forward="true" selection-start-line="76" selection-start-column="90" selection-end-line="76" selection-end-column="90" />
+          <folding>
+            <element signature="e#163#193#0" expanded="true" />
+            <marker date="1593585585189" expanded="true" signature="948:1050" ph="select cust_... srcorder_itemmissing_value" />
+            <marker date="1593585585189" expanded="true" signature="1618:1940" ph="update invoice_merge_reissue_order_send_statusmissing_value... " />
+            <marker date="1593585585189" expanded="true" signature="2352:2418" ph="select invoi... srcorder_headermissing_value" />
+            <marker date="1593585585189" expanded="true" signature="2537:2683" ph="select tax_n... invoice_merge_reissue_order_infomissing_value" />
+            <marker date="1593585585189" expanded="true" signature="3411:3485" ph="SELECT 1 FRO... invoice_merge_reissue_invoice_info" />
+            <marker date="1593585585189" expanded="true" signature="3695:4530" ph="INSERT INTO invoice_merge_reissue_invoice_info... " />
+            <marker date="1593585585189" expanded="true" signature="3695:4558" ph="INSERT INTO invoice_merge_reissue_invoice_infomissing_value... " />
+            <marker date="1593585585189" expanded="true" signature="4965:5018" ph="SELECT 1 FRO... invoice_base_info" />
+            <marker date="1593585585189" expanded="true" signature="5105:5224" ph="INSERT INTO invoice_base_info... " />
+            <marker date="1593585585189" expanded="true" signature="5105:5785" ph="INSERT INTO invoice_base_info... " />
+            <marker date="1593585585189" expanded="true" signature="5105:5786" ph="INSERT INTO invoice_base_info... " />
+            <marker date="1593585585189" expanded="true" signature="6090:6953" ph="INSERT INTO gcmspre1.invoice_common_info... " />
+            <marker date="1593585585189" expanded="true" signature="7114:7161" ph="SELECT 1 fro... invoice_order_relation" />
+            <marker date="1593585585189" expanded="true" signature="7114:7166" ph="SELECT 1 fro... invoice_order_relation" />
+            <marker date="1593585585189" expanded="true" signature="7114:7176" ph="SELECT 1 fro... invoice_order_relation" />
+            <marker date="1593585585189" expanded="true" signature="7236:7305" ph="SELECT order... srcorder_info_index" />
+            <marker date="1593585585189" expanded="true" signature="7414:7480" ph="UPDATE invoice_order_relation... " />
+            <marker date="1593585585189" expanded="true" signature="7414:7671" ph="UPDATE invoice_order_relation... " />
+            <marker date="1593585585189" expanded="true" signature="7797:8081" ph="INSERT INTO gcmspre1.invoice_order_relation... " />
+            <marker date="1593585585189" expanded="true" signature="7797:8082" ph="INSERT INTO gcmspre1.invoice_order_relation... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest/Other/a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest/Other/GCTEST_05_06.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="105" lean-forward="true" selection-start-line="12" selection-start-column="105" selection-end-line="12" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest/D0001_STANDAPI/ApiTest_魔方.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest/D0001_STANDAPI/ApiTest太平.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="84" column="63" lean-forward="true" selection-start-line="84" selection-start-column="63" selection-end-line="84" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ToolsScript/T002_PushMessge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="317" column="13" lean-forward="true" selection-start-line="317" selection-start-column="13" selection-end-line="317" selection-end-column="13" />
+          <folding>
+            <element signature="e#158#187#0" expanded="true" />
+            <marker date="1593573073366" expanded="true" signature="1491:1593" ph="select commd... srcorder_itemmissing_value" />
+            <marker date="1593573073366" expanded="true" signature="1693:1766" ph="update srcorder_itemmissing_value... " />
+            <marker date="1593573073366" expanded="true" signature="1864:1965" ph="select commd... srcorder_itemmissing_value" />
+            <marker date="1593573073366" expanded="true" signature="2069:2141" ph="update srcorder_itemmissing_value... " />
+            <marker date="1593573073366" expanded="true" signature="2493:2553" ph="update srcorder_itemmissing_value... " />
+            <marker date="1593573073366" expanded="true" signature="4017:4329" ph="INSERT INTO gcapi_push_messagemissing_value... " />
+            <marker date="1593573073366" expanded="true" signature="4556:4635" ph="update invoice_merge_reissue_order_infomissing_value... " />
+            <marker date="1593573073366" expanded="true" signature="5971:6295" ph="INSERT INTO gcapi_push_messagemissing_value... " />
+            <marker date="1593573073366" expanded="true" signature="7275:7356" ph="select table... gc_product_pool_split_strategy_config" />
+            <marker date="1593573073366" expanded="true" signature="7422:7515" ph="select my_ca... zs_prd_pool_singlemissing_value" />
+            <marker date="1593573073366" expanded="true" signature="8395:8750" ph="INSERT INTO gcapi_push_messagemissing_value... " />
+            <marker date="1593573073366" expanded="true" signature="9600:9953" ph="INSERT INTO gcapi_push_messagemissing_value... " />
+            <marker date="1593573073366" expanded="true" signature="10916:11304" ph="INSERT INTO gcapi_push_messagemissing_value... " />
+            <marker date="1593573073366" expanded="true" signature="12451:12510" ph="SELECT gc_it... srcorder_item" />
+            <marker date="1593573073366" expanded="true" signature="13163:13577" ph="INSERT INTO gcapi_push_messagemissing_value... " />
+            <marker date="1593573073366" expanded="true" signature="14742:15156" ph="INSERT INTO gcapi_push_messagemissing_value... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest/D0001_STANDAPI/互联魔方.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="25" column="53" lean-forward="true" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
